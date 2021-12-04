@@ -1,7 +1,15 @@
 body {
-    background-color: chocolate;
+    background-color: purple;
 }
 
-.wrapper {
-    grid-template-areas:inherit;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
