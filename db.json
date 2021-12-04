@@ -1,0 +1,73 @@
+{
+    "users": [{
+            "id": 1,
+            "name": "Andriy",
+            "sirname": "Moskalenko",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/photo.png",
+            "balance": 1500
+        },
+        {
+            "id": 2,
+            "name": "Yuriy",
+            "sirname": "Berezovchuk",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat1.png",
+            "balance": 5790
+        },
+        {
+            "id": 3,
+            "name": "Cat",
+            "sirname": "Egyptian",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat2.jpg",
+            "balance": 0
+        }
+    ],
+    "products": [{
+            "id": 1,
+            "name": "Кладба",
+            "description": "Can display 2-lines X 16-characters. Operate with 5V DC.",
+            "price": 100,
+            "author_id": 1,
+            "photo_url": "https://i.ytimg.com/vi/5FCE97IHckE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBgKyPJllRJXS_ubJYkJSYOdvrOyA"
+        },
+        {
+            "id": 2,
+            "name": "Голем",
+            "description": "Brand new and high quality.",
+            "price": 50,
+            "author_id": 3,
+            "photo_url": "https://i.ytimg.com/vi/pvcIneSzmao/maxresdefault.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Элитки",
+            "description": "не покупай",
+            "price": 10,
+            "author_id": 2,
+            "photo_url": "https://i.imgur.com/TOK2XmE.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Гонча",
+            "description": "Адская Гонча",
+            "price": 90,
+            "author_id": 1,
+            "photo_url": "https://i.imgur.com/BBrk3Ud.jpg"
+        },
+        {
+            "id": 5,
+            "name": "хог",
+            "description": "Хог 2.6",
+            "price": 180,
+            "author_id": 3,
+            "photo_url": "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2018/08/22/0b7dfb55-b12a-4411-8c34-eb408ddc890e/2-6-hog-cycle"
+        },
+        {
+            "id": 6,
+            "name": "Арбалет",
+            "description": "бей по нервам",
+            "price": 300,
+            "author_id": 2,
+            "photo_url": "https://clashroyale-guide.ru/wp-content/uploads/2016/04/Koloda-s-arbaletom-Clash-Royale.jpg"
+        }
+    ]
+}
