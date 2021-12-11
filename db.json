@@ -56,7 +56,7 @@
         {
             "id": 5,
             "name": "Хог",
-            "description": "Хог 2.6",
+            "description": "Хог 2.6",   
             "price": 180,
             "author_id": 3,
             "photo_url": "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2018/08/22/0b7dfb55-b12a-4411-8c34-eb408ddc890e/2-6-hog-cycle"
