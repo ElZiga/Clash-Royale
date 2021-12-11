@@ -12,31 +12,44 @@ xhr.onload = function() {
     <div class = "item">
     <h1>${products[0].name} </h1>
     <img width="250px;" src='${products[0].photo_url}'>
+    <h1>price: 
+    ${products[0].price} $</h1>
     </div>
 
     <div class = "item">
     <h1>${products[1].name} </h1>
     <img    width="250px;" src='${products[1].photo_url}'>
+    <h1> price:  
+    ${products[1].price} $</h1>
     </div>
 
     <div class = "item">
     <h1>${products[2].name} </h1>
     <img width="250px;" src='${products[2].photo_url}'>
+    <h1>price: 
+    ${products[2].price} $</h1>
     </div>
 
     <div class = "item">
     <h1>${products[3].name} </h1>
     <img width="250px;" src='${products[3].photo_url}'>
+    <h1> price:  
+    ${products[3].price} $</h1>
     </div>
 
     <div class = "item">
     <h1>${products[4].name} </h1>
     <img width="250px;" src='${products[4].photo_url}'>
+    <h1>  price: 
+    ${products[4].price} $</h1>
+
     </div>
 
     <div class = "item">
     <h1>${products[5].name} </h1>
     <img width="250px;" src='${products[5].photo_url}'>
-    </div>
+    <h1>price: 
+    ${products[5].price} $</h1>
+    </div   >
     `
 }
