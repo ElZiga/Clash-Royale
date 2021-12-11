@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color:  purple;
 }
 
 .grid {
@@ -9,7 +9,19 @@ body {
 }
 
 .item {
-    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(109, 0, 211, 0.699);
+    border: 5px solid black;
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center ;
 }
+
+@media screen and (max-width: 1000px) {
+    #products_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
